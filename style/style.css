@@ -11,7 +11,7 @@ body{
 }
 .header{
     background-color:rgba(255, 144, 14, 0.1);
-    height:1322px;
+    height:px;
 }
 ul li {
     list-style:none;
@@ -35,6 +35,9 @@ ul li a{
 }
 .logo{
     font-size:2.8rem;
+}
+.orange{
+    color:#FF900E;
 }
 .dark1{
     color:#131313;
@@ -73,12 +76,51 @@ ul li a{
     border:none;
     
 }
+/* team styling start from here  */
+.team{
+    max-width:1000px;
+    margin:130px auto;
+    justify-content:center;
+    align-items:center;
+    gap:80px;
+}
+.team-image{
+    display:grid;
+    grid-template-columns:repeat(2,1fr);
+    gap:20px;
+    
+}
+.team-image img{
+    width:100%;
+    border-radius:8px;
+
+}
+.team-content{
+    width:537px;
+    
+
+}
+.title{
+    font-size:3rem;
+}
+.img1:hover,
+.img2:hover,
+.img3:hover,
+.img4:hover{
+    border:2px solid blue;
+}
 @media screen and (max-width:576px)
 {
-    .nav,.ul-list{ 
+    .nav,
+    .ul-list,
+    .team{ 
         flex-direction:column;
     }
 .ul-list{
     gap:15px;
+}
+/* responsive for our teamwork & title  */
+.team-image{
+    grid-template-columns:repeat(1,1fr);
 }
 }
