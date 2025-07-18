@@ -151,8 +151,12 @@ ul li a{
     padding:30px 40px 30px 30px;
     margin-top:20px;
 }
+.feature-enjoy-image{
+    margin-top:70px;
+}
 
 .feature-enjoy-image>img{
+    
     width:100%;
 }
 .experience-badge{
@@ -208,7 +212,38 @@ ul li a{
     font-size:1.2rem;
     font-weight:600;
 }
+/* footer styling from here  */
+.sponspor{
+    width:1400px;
+    margin:0 auto;
+}
+.sponspors-title{
+    margin-top:180px;
+    text-align:center;
+    font-size:2.7rem;
+    font-weight:bold;
+}
+.sponspors-describtion{
+    text-align:center;
+    font-size:1rem;
+    margin-top:24px;
 
+}
+.sponspors-container{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    gap:154px;
+    margin-top:60px;
+}
+.copyright{
+    background-color:#FFF4E7;
+    text-align:center;
+    padding:40px 400px;
+    margin-top:155px;
+    font-size:1rem;
+
+}
 
 
 
