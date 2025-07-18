@@ -181,7 +181,7 @@ ul li a{
 /* some-facts-styling start */ 
 .about-some-facts{
     margin-top:20px;
-   max-width:1400px;
+   max-width:1200px;
     margin:0 auto;
 }
 .some-facts-title{
@@ -201,6 +201,8 @@ ul li a{
     border:1px solid #FF900E;
     border-radius:8px;
     padding:20px 30px; 
+    height:180px;
+    width:240px;
 }
 .some-facts-icon-item>h2{
     margin:10px;
@@ -214,8 +216,9 @@ ul li a{
 }
 /* footer styling from here  */
 .sponspor{
-   max-width:1400px;
+   max-width:1200px;
     margin:0 auto;
+   
 }
 .sponspors-title{
     margin-top:180px;
@@ -230,10 +233,11 @@ ul li a{
 
 }
 .sponspors-container{
+    
     display:flex;
     justify-content:center;
     align-items:center;
-    gap:154px;
+    gap:60px;
     margin-top:60px;
 }
 .copyright{
