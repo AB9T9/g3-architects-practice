@@ -115,7 +115,7 @@ ul li a{
  border:2px solid blue;
 }
 .feature-enjoy{
-    max-width:1400px;
+    max-width:1300px;
     margin:0px auto;
     gap:50px;
 }
@@ -237,7 +237,7 @@ ul li a{
     display:flex;
     justify-content:center;
     align-items:center;
-    gap:60px;
+    gap:80px;
     margin-top:60px;
 }
 .copyright{
