@@ -285,5 +285,9 @@ ul li a{
 .copyright{
     padding:20px 60px;
 }
+.feature-card{
+    width:100%;
+}
+
 
 }
